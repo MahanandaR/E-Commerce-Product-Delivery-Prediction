@@ -5,7 +5,7 @@ import time
 import base64
 
 
-model = joblib.load('final_delivery_model.pkl')
+model = joblib.load('saved_model/final_delivery_model.joblib')
 
 st.set_page_config(
     page_title="E-commerce Order Tracker",
